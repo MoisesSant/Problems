@@ -1,4 +1,5 @@
 // https://projecteuler.net/problem=2
+// Name: Even Fibonacci Numbers
 
 let result002: number[] = [1, 2];
 let ltn: number[] = [1, 2];

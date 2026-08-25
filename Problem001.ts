@@ -1,9 +1,10 @@
 // https://projecteuler.net/problem=1
+// Name: Multiples of 3 or 5
 
 let result001a: number[] = [];
 let result001b: number[] = [];
 
-function gradualNumber(a: number, b: number) {
+function multiples(a: number, b: number) {
   while (a && b < 1000) {
     result001a.push(a);
     result001b.push(b);
@@ -14,4 +15,4 @@ function gradualNumber(a: number, b: number) {
   console.log(result001b);
 }
 
-gradualNumber(3, 5);
+multiples(3, 5);
