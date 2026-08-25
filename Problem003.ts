@@ -1,7 +1,13 @@
 // https://projecteuler.net/problem=3
-// Name: Largest Prime Factor
 
-let n: number = 600851475143; // Put the number that you want
+/* 
+Question 3: Largest Prime Factor
+
+The prime factors of 13195 are 5, 7, 13 and 29.
+What is the largest prime factor of the number 600851475143?
+*/
+
+let n: number = 732144532; // Put any number you want
 let pn: number = 2;
 let pnList: number[] = [];
 
@@ -11,9 +17,10 @@ function LargestPrimeNum(number: number) {
     if (number % pn == 0) {
       pnList.push(pn);
       console.log(pnList);
-      if (number / pn === pnList[0]) return;
+      if (number / pn === pnList[0]) break;
     }
   }
+  console.log("Final Result: ");
   console.log(pnList);
 }
 
