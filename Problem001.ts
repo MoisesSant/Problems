@@ -22,3 +22,5 @@ function multiples(a: number, b: number) {
 }
 
 multiples(3, 5);
+
+// it's wrong, but I'll not change

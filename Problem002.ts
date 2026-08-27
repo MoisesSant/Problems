@@ -21,8 +21,8 @@ function evenFibonacciNumbers() {
   while (ltn[1] <= 10 ** 6 * 4) {
     c = a + b;
     if (c > 10 ** 6 * 4) break;
-    a = b; //2
-    b = c; //3
+    a = b;
+    b = c;
     ltn[0] = a;
     ltn[1] = b;
     result002.push(b);
